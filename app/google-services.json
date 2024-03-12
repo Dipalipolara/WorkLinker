@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "157197772443",
+    "project_id": "work-linker-2c155",
+    "storage_bucket": "work-linker-2c155.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157197772443:android:93abbe0cbc48f9bee5083e",
+        "android_client_info": {
+          "package_name": "com.example.worklinker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157197772443-0nhmv0p82fsu0sbab3ir3de253iifk6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMNWqtYXq9697SzzNeuYXlxq3XlWwmg5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157197772443-0nhmv0p82fsu0sbab3ir3de253iifk6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

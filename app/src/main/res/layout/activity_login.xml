@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    >
+
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="552dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="249dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="426dp"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="114dp"
+        android:layout_height="54dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="310dp"
+        android:backgroundTint="#C42D3A81"
+        android:text="login"
+        android:textSize="18sp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/Signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.383"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="284dp"
+            android:layout_height="57dp"
+            android:background="@color/black"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="46dp"
+                android:layout_height="37dp"
+                android:layout_gravity="start"
+                android:layout_marginEnd="5dp"
+                android:src="@drawable/google" />
+
+            <TextView
+                android:id="@+id/signwithgoogle"
+                android:layout_width="225dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Sign in with Google"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
